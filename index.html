@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт бытовой техники</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <input class="header-btn" type="button" value="Войти">
+        <div class="admin-log">
+            <i class="fa fa-user-circle"></i>
+            <span>Admin</span>
+        </div>
+    </header>
+    <div name="person" class="user-form">
+        <h2 class="user-form-title">Оставьте свою заявку на ремонт</h2>
+        <input class="user-form-input" name="surname" type="text" placeholder="Фамилия">
+        <input class="user-form-input" name="name" type="text" placeholder="Имя">
+        <input class="user-form-input" name="fatherName" type="text" placeholder="Отчество">
+        <input class="user-form-input" name="phone" type="phone" placeholder="Номер телефона">
+        <input class="user-form-input" name="street" type="text" placeholder="Улица">
+        <input class="user-form-input" name="house" type="text" placeholder="Дом">
+        <input class="user-form-input" name="entrance" type="text" placeholder="Подъезд">
+        <input class="user-form-input" name="flat" type="text" placeholder="Квартира">
+        <input class="user-form-input" name="type" type="text" placeholder="Название бытовой техники">
+        <button class="user-form-btn">Отправить</button>
+    </div>
+    <div class="modal">
+        <form class="login-form">
+            <h3 class="login-form-title">Логин</h3>
+            <input class="login-form-input" data-input="login" placeholder="Логин">
+            <h3 class="login-form-title">Пароль</h3>
+            <input class="login-form-input" type="password" data-input="password" placeholder="Пароль">
+            <input class="login-form-btn" type="button" value="Войти">
+        </form>
+    </div>
+    <div class="admin">
+    </div>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

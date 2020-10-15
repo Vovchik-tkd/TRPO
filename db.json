@@ -1,0 +1,16 @@
+{
+  "userposts": [
+    {
+      "surname": "Gavno",
+      "name": "Jopa",
+      "fatherName": "Pezda",
+      "phone": "123456789",
+      "street": "Esenina",
+      "house": "Karuselina",
+      "entrance": "0",
+      "flat": "-21",
+      "type": "Kudahter",
+      "id": 1
+    }
+  ]
+}
