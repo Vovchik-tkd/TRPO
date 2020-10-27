@@ -44,7 +44,8 @@
 .user-form-title {
     font-weight: 700;
     font-size: 36px;
-    color: rgba(0, 0, 0, .8)
+    color: rgba(0, 0, 0, .8);
+    text-align: center;;
 }
 
 .user-form-input {
@@ -86,8 +87,8 @@
     align-items: center;
     border: none;
     border-radius: 10px;
-    width: 500px;
-    height: 420px;
+    width: 400px;
+    height: 320px;
     margin: auto;
     background-color: white;
 }
@@ -148,4 +149,80 @@
 
 footer {
     height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .header-btn {
+        display: flex;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        background-color: #B100FE;
+        color: white;
+        height: 30px;
+        width: 65px;
+        font-size: 12px;
+    }
+    .user-form-title {
+        font-weight: 700;
+        font-size: 30px;
+        color: rgba(0, 0, 0, .8);
+        text-align: center;;
+    }
+    .user-form-input {
+        width: 250px;
+        height: 25px;
+        margin-top: 20px;
+        border: 1px solid gray;
+        border-radius: 3px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    .user-form-btn {
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: #B100FE;
+        font-size: 12px;
+    }
+    .login-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+        width: 300px;
+        height: 220px;
+        margin: auto;
+        background-color: white;
+    }
+    .login-form-title {
+        font-weight: 700;
+        font-size: 16px;
+        color: rgba(0, 0, 0, .8);
+        margin-bottom: 5px;
+    }
+    .login-form-input {
+        width: 250px;
+        height: 25px;
+        margin-bottom: 15px;
+        border: 1px solid gray;
+        border-radius: 3px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    .login-form-btn {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 150px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: #B100FE;
+    }
 }
